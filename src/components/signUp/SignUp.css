@@ -1,0 +1,33 @@
+input{
+    background-image: url('../../icon-arrow.svg');
+    border-radius: 25px;
+    height: 50px;
+    border: solid hsl(0, 12%, 84%) 2px;
+    width: 350px;
+    padding-left: 25px;
+}
+
+input:focus{
+    outline: none;
+    border: solid hsl(0, 12%, 84%) 2px;
+}
+
+button{
+    border: none;
+    height:50px;
+    border-radius: 25px;
+    width: 80px;
+    padding:0;
+    padding-top: 15px;
+    padding-left: 5px;
+    margin-left: -45px;
+    background-image: linear-gradient(to right, hsl(0, 57%, 83%),  hsl(0, 63%, 75%));
+    box-shadow: 3px 12px 20px hsl(0, 57%, 83%);
+}
+form{
+    margin-top: 30px;
+    display: flex;
+}
+::placeholder{
+    color: hsl(0, 12%, 84%);
+}

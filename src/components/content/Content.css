@@ -1,0 +1,23 @@
+.heading{
+    font-size: 400%;
+    font-family: 'Roboto', sans-serif;
+}
+.contentContainer{
+    width:340px;
+}
+.were{
+    font-weight: 100;
+    color: hsl(0, 37%, 72%);
+}
+.summary{
+    color: hsl(0, 37%, 72%);
+}
+p{
+    margin-bottom:0;
+    margin-top:0;
+    font-family: Josefin Sans;
+    font-weight: 300;
+}
+img{
+    margin-bottom: 80px;
+}
