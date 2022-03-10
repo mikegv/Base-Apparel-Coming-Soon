@@ -4,7 +4,7 @@ import './Hero.css'
 
 function Hero() {
     return (
-        <div>
+        <div class="heroimage">
             <img src={HeroImage} height="700"/>
         </div>
     );

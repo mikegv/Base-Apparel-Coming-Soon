@@ -3,4 +3,6 @@
     flex-direction: column;
     background-image: url(../../bg-pattern-desktop.svg);
     padding: 100px;
+    padding-left: 180px;
+    width: 65vw;
 }

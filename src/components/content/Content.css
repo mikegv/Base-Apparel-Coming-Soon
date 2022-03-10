@@ -1,9 +1,9 @@
 .heading{
     font-size: 400%;
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial;
 }
 .contentContainer{
-    width:340px;
+
 }
 .were{
     font-weight: 100;
@@ -11,6 +11,7 @@
 }
 .summary{
     color: hsl(0, 37%, 72%);
+    width: 465px;
 }
 p{
     margin-bottom:0;

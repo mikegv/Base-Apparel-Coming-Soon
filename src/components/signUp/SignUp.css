@@ -3,13 +3,16 @@ input{
     border-radius: 25px;
     height: 50px;
     border: solid hsl(0, 12%, 84%) 2px;
-    width: 350px;
+    width: 380px;
     padding-left: 25px;
 }
 
 input:focus{
     outline: none;
     border: solid hsl(0, 12%, 84%) 2px;
+}
+.notice {
+    border: solid 2px red;
 }
 
 button{
@@ -30,4 +33,12 @@ form{
 }
 ::placeholder{
     color: hsl(0, 12%, 84%);
+}
+.error{
+    color:red;
+    display: none;
+    margin-left:20px;
+}
+.showError{
+    display:inline;
 }
